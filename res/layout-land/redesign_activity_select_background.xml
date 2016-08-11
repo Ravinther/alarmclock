@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:orientation="1" custom:id="@id/choose_background_root_view" custom:layout_width="-1" custom:layout_height="-1">
+    <View custom:id="@id/background_container" custom:layout_width="-1" custom:layout_height="-1" />
+    <include custom:id="@id/save_cancel_bar" layout="@layout/redesign_ab_save_cancel_layout" />
+    <com.anglelabs.alarmclock.redesign.views.HorizontalPicturesViewer custom:id="@id/background_viewer" custom:layout_width="-1" custom:layout_height="-2" custom:layout_marginBottom="15dp" custom:layout_alignParentBottom="true" custom:child_width="83dp" custom:child_height="100dp" custom:child_margin="10dp" />
+</RelativeLayout>

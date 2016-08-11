@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@c1080d/battery_state_bg" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@c1082f/textViewHeader" android:layout_width="-1" android:layout_height="-2" android:text="TextView" style="@c1086j/ListItemTitle" />
+</LinearLayout>

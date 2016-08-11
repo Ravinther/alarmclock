@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_above="@id/rate_share_buttons_container" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="26sp" android:textColor="0x106000b" android:id="@id/about_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35dp" android:text="@string/about_app_title" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="0x106000b" android:gravity="11" android:id="@id/about_version" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/about_title" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18sp" android:textColor="0x106000b" android:gravity="11" android:id="@id/about_tos_link" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35dp" android:text="@string/about_term_of_service" android:layout_below="@id/about_version" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18sp" android:textColor="0x106000b" android:gravity="11" android:id="@id/about_privacy_link" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/about_privacy_policy" android:layout_below="@id/about_tos_link" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="0" android:id="@id/rate_share_buttons_container" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:weightSum="2.0" android:layout_above="@id/about_more_apps">
+        <Button android:textColor="0x106000b" android:id="@id/share_app_button" android:background="@drawable/btn_blue_holo_selector" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:text="@string/share_button_text" android:layout_weight="1.0" />
+        <Button android:textColor="0x106000b" android:id="@id/rate_app_button" android:background="@drawable/btn_blue_holo_selector" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="15dp" android:text="@string/rate_button_text" android:layout_weight="1.0" />
+    </LinearLayout>
+    <Button android:textColor="0x106000b" android:id="@id/about_more_apps" android:background="@drawable/btn_blue_holo_selector" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/about_more_avg_apps" android:layout_alignParentBottom="true" />
+</RelativeLayout>

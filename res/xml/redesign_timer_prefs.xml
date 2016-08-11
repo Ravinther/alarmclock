@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm" android:key="alarm_settings">
+    <PreferenceCategory android:layout="@layout/redesign_preference_category" android:title="@string/alarm_setting_category_basic" android:key="basic_settings_category" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/timer_settings_keep_screen_on" android:key="keep_screen_on" android:summary="@string/timer_settings_keep_screen_on_summary" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/sound_type_entries" android:title="@string/alarm_setting_sound_type" android:key="sound_type" android:dialogTitle="@string/alarm_setting_sound_type" android:entryValues="@array/sound_type_values" />
+    <com.anglelabs.alarmclock.preference.SelectRingtonePreference android:persistent="false" android:title="@string/alarm_setting_sound_rington" android:key="set_ringtone" android:ringtoneType="7" android:showDefault="true" android:showSilent="true" />
+    <com.anglelabs.alarmclock.preference.MusicPreference android:persistent="false" android:title="@string/alarm_setting_sound_music" android:key="set_music" />
+    <com.anglelabs.alarmclock.preference.ArtistPreference android:persistent="false" android:title="@string/alarm_setting_sound_artist" android:key="set_artist" />
+    <com.anglelabs.alarmclock.preference.PlaylistPreference android:persistent="false" android:title="@string/alarm_setting_sound_playlist" android:key="set_playlist" />
+    <com.anglelabs.alarmclock.preference.ApplicationPreference android:persistent="false" android:title="@string/alarm_setting_sound_application" android:key="set_application" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_setting_vibrate" android:key="vibrate" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_setting_volume_cresendo" android:key="use_volume_cresendo" android:summary="@string/alarm_setting_volume_cresendo_summary" />
+    <com.anglelabs.alarmclock.preference.VolumeBarPreference android:persistent="false" android:max="100" android:text="%" android:title="@string/timer_setting_volume" android:key="alarm_volume" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/volume_increase_entries" android:title="@string/alarm_setting_volume_increase_time" android:key="volume_increase_duration" android:dialogTitle="@string/alarm_setting_volume_increase_time" android:entryValues="@array/volume_increase_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/timer_setting_silent_mode" android:key="alarm_in_silent_mode" android:summary="@string/alarm_settin_silent_mode_summary" />
+</PreferenceScreen>

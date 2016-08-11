@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:padding="20dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="18sp" android:textStyle="1" android:textColor="@c1080d/holo_blue_light" android:layout_width="-2" android:layout_height="-2" android:text="@c1085i/rate_us_dialog_title" />
+    <TextView android:textSize="17sp" android:textColor="#8c8c8c" android:id="@c1082f/textViewDialogBody" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="15dp" android:src="@c1081e/rating_stars_full" />
+    <Button android:textSize="18sp" android:textColor="@c1080d/white" android:id="@c1082f/buttonRate" android:background="@c1081e/button_blue_selector" android:padding="25dp" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/rate_us_dialog_rate_button" />
+</LinearLayout>

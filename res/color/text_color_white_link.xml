@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:color="@c1080d/disabled_text" />
+    <item android:state_pressed="true" android:color="@c1080d/blue_note" />
+    <item android:color="@c1080d/white" />
+</selector>

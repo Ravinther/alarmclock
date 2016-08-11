@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:enabled="false" android:gravity="13" android:orientation="1" android:id="@id/button_bar" android:background="@color/action_bar_transparent_color" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="?attr/actionBarSize">
+    <TextView android:textColor="0x106000b" android:ellipsize="3" android:gravity="10" android:id="@c1082f/action_bar_title" android:background="@drawable/abc_title_selector" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:drawableLeft="@c1081e/abc_ic_ab_back_holo_dark" style="@c1086j/TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse" />
+</LinearLayout>

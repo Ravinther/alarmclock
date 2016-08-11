@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="0" android:background="@drawable/popup_bg" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/timer_button_margin" android:shadowColor="#bb000000" android:shadowRadius="2.75">
+    <TextView android:textSize="@dimen/alarm_label_size" android:textColor="@color/popup_text_color" android:gravity="11" android:layout_gravity="11" android:id="@id/text" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:lines="2" android:layout_weight="1.0" />
+    <View android:layout_width="1dp" android:layout_height="-1" android:layout_marginLeft="8dp" android:layout_marginTop="15dp" android:layout_marginRight="8dp" android:layout_marginBottom="15dp" android:layout_weight="0.0" />
+    <Button android:textSize="14sp" android:textColor="@color/popup_text_color" android:layout_gravity="10" android:id="@id/undo" android:background="@drawable/undo_btn_bg" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/undo" android:drawableLeft="@drawable/ic_action_undo" android:layout_weight="0.0" />
+</LinearLayout>

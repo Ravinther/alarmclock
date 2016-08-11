@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:weightSum="10.0">
+    <com.avg.ui.general.customviews.ZenDrawer android:id="@c1082f/drawer" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@c1082f/navigationPlaceHolder" android:layout_width="-1" android:layout_height="-1" layout="@c1084h/landing" />
+    </com.avg.ui.general.customviews.ZenDrawer>
+</RelativeLayout>

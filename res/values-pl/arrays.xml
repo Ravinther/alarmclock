@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Cichy</item>
+        <item>Dzwonek</item>
+        <item>Muzyka</item>
+        <item>Losowe utwory według artysty</item>
+        <item>Losowe utwory według listy odtwarzania</item>
+        <item>Uruchom aplikację</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Sobota</item>
+        <item>Niedziela</item>
+        <item>Poniedziałek</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Alarm</item>
+        <item>Czasomierz</item>
+        <item>Stoper</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Najłatwiejsze (np. 6 – 2)</item>
+        <item>Łatwe (np. 15 – 8)</item>
+        <item>Średnie (np. 36 – 19)</item>
+        <item>Trudne (np. 112 – 62 – 27)</item>
+        <item>Najtrudniejsze (np. 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>mniej niż 1 minuta</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s i %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s i %3$s</item>
+        <item>%2$s i %3$s</item>
+        <item>%1$s %2$s i %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>45 sekund</item>
+        <item>60 sekund</item>
+        <item>90 sekund</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Nigdy</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>20 sekund</item>
+        <item>25 sekund</item>
+        <item>30 sekund</item>
+        <item>45 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>40 minut</item>
+        <item>50 minut</item>
+        <item>60 minut</item>
+        <item>90 minut</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+        <item>Niedziela</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Pn</item>
+        <item>Wt</item>
+        <item>Śr</item>
+        <item>Cz</item>
+        <item>Pt</item>
+        <item>Sb</item>
+        <item>Nd</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Domyślne ustawienia systemowe</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Pozostały czas: %3$s</item>
+        <item>Pozostały czas: %1$s</item>
+        <item>Pozostały czas: %2$s</item>
+        <item>Pozostały czas: %1$s %2$s</item>
+    </string-array>
+</resources>

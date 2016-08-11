@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_list_subtitle_size">16.0sp</dimen>
+    <dimen name="dashboard_title_size">20.0sp</dimen>
+    <dimen name="dashboard_subtitle_size">18.0sp</dimen>
+    <dimen name="app_landing_dashboard_title">20.0sp</dimen>
+    <dimen name="dashboard_button_padding_right">35.0dip</dimen>
+    <dimen name="dashboard_button_padding_left">35.0dip</dimen>
+    <dimen name="dashboard_button_padding_top">25.0dip</dimen>
+    <dimen name="dashboard_button_padding_bottom">20.0dip</dimen>
+    <dimen name="dashboard_scan_drawable_padding">20.0dip</dimen>
+</resources>

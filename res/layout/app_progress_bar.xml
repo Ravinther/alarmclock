@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@c1082f/progressBarParentLayout" android:background="@c1081e/progress_bar_background" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="18dp">
+    <ImageView android:id="@c1082f/progress_bar_runner1" android:layout_width="-2" android:layout_height="-2" android:src="@c1081e/progress_bar_capsule_ltr" android:contentDescription="@c1085i/DummyContentDescription" />
+</RelativeLayout>

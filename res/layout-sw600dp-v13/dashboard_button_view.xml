@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@c1082f/root_layout" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@c1082f/title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@c1085i/testing" style="@c1086j/DashbordButtonTitle" />
+    <TextView android:id="@c1082f/subtitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:text="@c1085i/testing" style="@c1086j/DashbordButtonSubtitle" />
+    <Button android:id="@c1082f/dashboardButton" android:layout_width="@dimen/main_button_width" android:layout_height="-2" android:layout_marginTop="15dp" android:text="@c1085i/testing" />
+</LinearLayout>

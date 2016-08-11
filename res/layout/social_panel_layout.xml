@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <ImageButton android:id="@c1082f/buttonLike" android:background="@c1081e/selector_simple_btn_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@c1081e/google_plus_app" android:layout_weight="1.0" />
+    <ImageButton android:id="@c1082f/buttonShare" android:background="@c1081e/selector_simple_btn_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@c1081e/share_app" android:layout_weight="1.0" />
+    <ImageButton android:id="@c1082f/buttonRate" android:background="@c1081e/selector_simple_btn_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@c1081e/rate_app" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@c1082f/dashboard_layout" android:layout_width="-1" android:layout_height="-1">
+    <com.avg.ui.general.customviews.Gauge android:layout_gravity="11" android:id="@c1082f/dashboard_gauge" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+</LinearLayout>

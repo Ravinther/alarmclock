@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@c1082f/scroll_scan_result" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@c1082f/block_image" android:background="@c1081e/avg_logo" android:paddingTop="0dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:src="@c1081e/avg_logo" />
+            <TextView android:layout_gravity="3" android:id="@c1082f/tv_current_license" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="45dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text="@c1085i/current_license" style="@c1086j/TextGreyMedium" />
+            <TextView android:layout_gravity="3" android:id="@c1082f/tv_scan_qr" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20sp" android:layout_marginRight="20dp" android:text="@c1085i/enter_unlock_password" style="@c1086j/TextGreyMedium" />
+            <TextView android:layout_gravity="3" android:id="@c1082f/tv_or" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20sp" android:layout_marginRight="20dp" android:text="@c1085i/text_view" style="@c1086j/TextGreyMedium" />
+            <TextView android:layout_gravity="3" android:id="@c1082f/tv_enter_manually" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20sp" android:layout_marginRight="20dp" android:text="@c1085i/text_view" style="@c1086j/TextGreyMedium" />
+            <LinearLayout android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp">
+                <EditText android:id="@c1082f/edit_code" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" android:inputType="81" />
+            </LinearLayout>
+            <Button android:id="@c1082f/btn_scan_qr" android:visibility="2" android:layout_width="-1" android:layout_height="48dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@c1085i/license_scan_qr" />
+            <Button android:id="@c1082f/btn_ok" android:layout_width="-1" android:layout_height="48dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" />
+            <TextView android:textSize="17sp" android:textColor="#111111" android:gravity="3" android:id="@c1082f/tv_text2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:text="@c1085i/enter_serial_again" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

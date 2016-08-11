@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/timer_switcher" android:padding="@dimen/view_alarms_margin" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/list_layout" android:layout_width="-1" android:layout_height="-1">
+        <ListView android:id="@c1082f/list" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="@dimen/view_alarms_margin" android:divider="@c1080d/transparent" android:dividerHeight="6dp" android:layout_weight="1.0" style="@style/baseListStyle" />
+        <include android:id="@id/add_timer_button" layout="@layout/includable_add_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/timer_layout" android:layout_width="-1" android:layout_height="-2">
+        <com.anglelabs.alarmclock.redesign.views.TimerView android:id="@id/timer_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/view_alarms_margin" />
+        <Button android:textSize="@dimen/big_button_text_size" android:textColor="0x106000b" android:id="@id/start_timer_button" android:background="@drawable/selector_button_item_bgcolor" android:padding="@dimen/big_button_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/start_timer" />
+    </LinearLayout>
+</ViewSwitcher>

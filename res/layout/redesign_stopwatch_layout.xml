@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp">
+    <com.anglelabs.alarmclock.redesign.views.TimeDisplayBar android:gravity="11" android:layout_gravity="11" android:id="@id/timeBar" android:layout_width="-2" android:layout_height="-2" />
+    <ViewSwitcher android:id="@id/stopwatch_button_layout_switcher" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+        <LinearLayout android:orientation="0" android:id="@id/stopwatch_play_buttons_layout" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:weightSum="2.0">
+            <TextView android:id="@id/stopwatch_reset" android:text="@string/stopwatch_reset" style="@style/button_style" />
+            <TextView android:id="@id/stopwatch_play" android:layout_marginLeft="5dp" android:text="@string/stopwatch_play" style="@style/button_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@id/stopwatch_stop_buttons_layout" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:weightSum="2.0">
+            <TextView android:id="@id/stopwatch_lap" android:text="@string/stopwatch_lap" style="@style/button_style" />
+            <TextView android:id="@id/stopwatch_stop" android:layout_marginLeft="5dp" android:text="@string/stopwatch_stop" style="@style/button_style" />
+        </LinearLayout>
+    </ViewSwitcher>
+    <ListView android:id="@id/stopwatch_list" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:divider="@drawable/preferences_divider_drawable" style="@style/baseListStyle" />
+</LinearLayout>

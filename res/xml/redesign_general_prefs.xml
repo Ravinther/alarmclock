@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm" android:key="alarm_settings">
+    <CheckBoxPreference android:title="@string/general_settings_clock_24hour" android:key="use_24_hours" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:entries="@array/first_day_of_week_entries" android:title="@string/general_settings_first_day_the_week" android:key="first_day_of_week" android:dialogTitle="@string/general_settings_first_day_the_week" android:entryValues="@array/first_day_of_week" />
+    <CheckBoxPreference android:title="@string/general_settings_use_phone_speakers_title" android:key="use_phone_speaker" android:summary="@string/general_settings_use_phone_speakers_summary" android:defaultValue="true" />
+    <Preference android:title="@string/general_settings_background" android:key="background" android:summary="@string/general_settings_background_summary" />
+    <com.anglelabs.alarmclock.preference.MultiSelectListPreference android:persistent="true" android:entries="@array/notification_entries" android:title="@string/general_settings_show_notification" android:key="show_notification_dialog" android:summary="@string/all" android:defaultValue="@array/notification_options" android:dialogTitle="@string/general_settings_show_notification" android:entryValues="@array/notification_options" />
+    <CheckBoxPreference android:title="@string/general_settings_unlock_title" android:key="unlock_phone_on_alarm" android:summary="@string/general_settings_unlock_summary" android:defaultValue="true" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:entries="@array/language_entries" android:title="@string/general_settings_language_title" android:key="language" android:defaultValue="@string/language_default" android:dialogTitle="@string/general_settings_language_title" android:entryValues="@array/language_values" />
+    <CheckBoxPreference android:title="@string/general_settings_vacation_mode_title" android:key="vacation_mode" android:summary="@string/general_settings_vacation_mode_summary" android:defaultValue="false" />
+</PreferenceScreen>

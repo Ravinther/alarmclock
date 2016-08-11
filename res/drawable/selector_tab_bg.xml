@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_checked="true" android:drawable="@c1081e/tab_selected_holo" />
+    <item android:state_checked="false" android:drawable="@c1081e/tab_unselected_holo" />
+    <item android:drawable="@c1081e/tab_unselected_holo" />
+</selector>

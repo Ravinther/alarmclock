@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm" android:key="alarm_settings">
+    <PreferenceCategory android:layout="@layout/redesign_preference_category" android:title="@string/alarm_setting_category_snooze" android:key="category_snooze_settings" />
+    <com.anglelabs.alarmclock.preference.SeekBarPreference android:persistent="false" android:max="60" android:text="minutes" android:title="@string/alarm_setting_snooze_duration" android:key="snooze_duration" android:defaultValue="10" />
+    <com.anglelabs.alarmclock.preference.SeekBarPreference android:persistent="false" android:max="10" android:text="minutes" android:title="@string/alarm_setting_snooze_decrease_duration" android:key="snooze_decrease_duration" android:defaultValue="0" />
+    <com.anglelabs.alarmclock.preference.SeekBarPreference android:persistent="false" android:max="20" android:title="@string/alarm_setting_max_snoozes" android:key="max_snoozes" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_setting_large_snooze_button" android:key="large_snooze_button" />
+    <PreferenceCategory android:layout="@layout/redesign_preference_category" android:title="@string/alarm_setting_category_alarm" android:key="category_alarm_settings" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_setting_vibrate" android:key="vibrate" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_setting_volume_cresendo" android:key="use_volume_cresendo" android:summary="@string/alarm_setting_volume_cresendo_summary" />
+    <com.anglelabs.alarmclock.preference.VolumeBarPreference android:persistent="false" android:max="100" android:text="%" android:title="@string/alarm_setting_volume" android:key="alarm_volume" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/volume_increase_entries" android:title="@string/alarm_setting_volume_increase_time" android:key="volume_increase_duration" android:dialogTitle="@string/alarm_setting_volume_increase_time" android:entryValues="@array/volume_increase_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_settin_silent_mode" android:key="alarm_in_silent_mode" android:summary="@string/alarm_settin_silent_mode_summary" />
+</PreferenceScreen>

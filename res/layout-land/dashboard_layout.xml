@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.avg.ui.general.customviews.Dashboard android:layout_gravity="11" android:id="@c1082f/dashboard" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="21dp" android:layout_marginRight="21dp" />

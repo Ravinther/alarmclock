@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:orientation="1" android:id="@id/timer_details" android:background="@drawable/timer_item_type_background" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2">
+        <ProgressBar android:id="@id/timer_progressbar" android:paddingLeft="6dp" android:paddingRight="6dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:max="100" android:progress="50" android:layout_alignParentTop="true" style="@style/TimerProgressBar" />
+        <com.anglelabs.alarmclock.redesign.views.TimeDisplayBar android:orientation="0" android:id="@id/timebar" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:baselineAligned="false" />
+        <ImageView android:id="@id/delete_button" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/timer_delete_button" android:layout_alignBottom="@id/timebar" android:layout_alignParentRight="true" />
+        <com.anglelabs.alarmclock.redesign.views.AnimationEditText android:textSize="12sp" android:textColor="@color/white_fifty_alpha" android:id="@id/alarmLabel" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="-2" android:layout_height="-2" android:text="@string/timer_default_name" android:minEms="@integer/min_animation_editText_ems" android:layout_below="@id/timebar" android:inputType="80001" />
+    </RelativeLayout>
+    <ViewSwitcher android:id="@id/timer_switcher" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/big_button_margin" android:minHeight="47dp">
+        <LinearLayout android:orientation="0" android:id="@id/timer_buttons_play" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:weightSum="2.0">
+            <TextView android:id="@id/timer_button_reset" android:text="@string/reset_timer" style="@style/left_button_style" />
+            <TextView android:id="@id/timer_button_play" android:layout_marginLeft="@dimen/big_button_margin" android:text="@string/stopwatch_play" style="@style/right_button_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@id/timer_buttons_stop" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:weightSum="2.0" android:minHeight="47dp">
+            <TextView android:id="@id/timer_button_plus_1" android:text="@string/plus_one_timer" style="@style/left_button_style" />
+            <TextView android:id="@id/timer_button_stop" android:layout_marginLeft="@dimen/big_button_margin" android:text="@string/stopwatch_stop" style="@style/right_button_style" />
+        </LinearLayout>
+    </ViewSwitcher>
+</LinearLayout>

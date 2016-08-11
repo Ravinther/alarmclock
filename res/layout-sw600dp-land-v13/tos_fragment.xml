@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="50" android:layout_width="-1" android:layout_height="-1">
+    <ViewStub android:id="@c1082f/activation_screen_content" android:layout_width="-1" android:layout_height="-1" android:layout_above="@c1082f/bottom_layout_container" />
+    <LinearLayout android:orientation="1" android:id="@c1082f/bottom_layout_container" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <TextView android:gravity="11" android:linksClickable="true" android:layout_gravity="11" android:id="@c1082f/text_terms_and_privacy_hyperlink" android:layout_width="-2" android:layout_height="-2" android:text="@c1085i/activation_agreeing" style="@c1086j/TextGreyMedium" />
+        <Button android:gravity="11" android:layout_gravity="11" android:id="@c1082f/button_activation" android:paddingLeft="65dp" android:paddingRight="65dp" android:layout_width="-2" android:layout_height="72dp" android:layout_margin="20dp" android:text="@c1085i/onboarding_button_tos" />
+    </LinearLayout>
+</RelativeLayout>

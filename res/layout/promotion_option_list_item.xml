@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="15dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@c1082f/textViewPromotionOptionText" android:layout_width="-2" android:layout_height="-2" android:text="@c1085i/testing" android:layout_centerVertical="true" style="@c1086j/TextWhiteLarge" />
+</RelativeLayout>

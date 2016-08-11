@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/stopwatch_item_row" android:layout_width="-1" android:layout_height="32dp" android:weightSum="3.0">
+    <TextView android:textColor="0x106000b" android:gravity="11" android:id="@id/stopwatch_item_row_number" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+    <TextView android:textColor="0x106000b" android:gravity="11" android:id="@id/stopwatch_item_lap_time" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+    <TextView android:textColor="0x106000b" android:gravity="11" android:id="@id/stopwatch_item_total_time" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+</LinearLayout>

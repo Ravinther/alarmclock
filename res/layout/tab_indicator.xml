@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_height="-2" android:divider="@c1081e/list_divider_holo_dark" style="@c1086j/WidgetHoloTab">
+    <ImageView android:layout_gravity="10" android:id="@c1082f/icon" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:gravity="11" android:layout_gravity="11" android:id="@c1082f/title" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/testing" android:layout_weight="1.0" style="@c1086j/TabWidget" />
+    <LinearLayout android:gravity="5" android:layout_gravity="5" android:orientation="1" android:background="@c1081e/list_divider_holo_dark" android:padding="0dp" android:layout_width="1dp" android:layout_height="-1" android:layout_margin="0dp" android:layout_weight="1.0" /> />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height">40.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abc_action_bar_title_text_size">16.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">12.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-2.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="dashboard_list_item_margin">0.0dip</dimen>
+    <dimen name="dashboard_list_title_size">14.0sp</dimen>
+    <dimen name="dashboard_list_subtitle_size">10.0sp</dimen>
+    <dimen name="app_landing_dashboard_title">18.0sp</dimen>
+    <dimen name="clock">62.0sp</dimen>
+    <dimen name="undoOffset">30.0dip</dimen>
+    <dimen name="view_alarms_margin">10.0dip</dimen>
+</resources>

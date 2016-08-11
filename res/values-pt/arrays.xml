@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Silencioso</item>
+        <item>Toque do telefone</item>
+        <item>Música</item>
+        <item>Músicas aleatórias por artista</item>
+        <item>Músicas aleatórias por lista de reprodução</item>
+        <item>Iniciar aplicativo</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Segunda</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Alarme</item>
+        <item>Timer</item>
+        <item>Cronômetro</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Muito fácil (ou seja, 6 – 2)</item>
+        <item>Fácil (ou seja, 15 – 8)</item>
+        <item>Médio (ou seja, 36 – 19)</item>
+        <item>Difícil (ou seja, 112 – 62 – 27)</item>
+        <item>Muito difícil (ou seja, 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>menos de 1 minuto</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s e %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s e %3$s</item>
+        <item>%2$s e %3$s</item>
+        <item>%1$s %2$s e %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>45 segundos</item>
+        <item>60 segundos</item>
+        <item>90 segundos</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>4 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Nunca</item>
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>15 segundos</item>
+        <item>20 segundos</item>
+        <item>25 segundos</item>
+        <item>30 segundos</item>
+        <item>45 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>40 minutos</item>
+        <item>50 minutos</item>
+        <item>60 minutos</item>
+        <item>90 minutos</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+        <item>Dom</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Padrão do sistema</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norueguês (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s restantes</item>
+        <item>%1$s restantes</item>
+        <item>%2$s restantes</item>
+        <item>%1$s %2$s restantes</item>
+    </string-array>
+</resources>

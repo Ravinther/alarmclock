@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Tichý režim</item>
+        <item>Vyzváněcí tón</item>
+        <item>Hudba</item>
+        <item>Náhodné skladby od interpreta</item>
+        <item>Náhodné skladby ze seznamu</item>
+        <item>Spustit aplikaci</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Sobota</item>
+        <item>Neděle</item>
+        <item>Pondělí</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Budík</item>
+        <item>Časovač</item>
+        <item>Stopky</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Nejsnadnější (např. 6 – 2)</item>
+        <item>Snadné (např. 15 – 8)</item>
+        <item>Střední (např. 36 – 19)</item>
+        <item>Obtížné (např. 112 – 62 – 27)</item>
+        <item>Nejobtížnější (např. 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>méně než 1 min.</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s a %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s a %3$s</item>
+        <item>%2$s a %3$s</item>
+        <item>%1$s %2$s a %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>45 sekund</item>
+        <item>60 sekund</item>
+        <item>90 sekund</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Nikdy</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>20 sekund</item>
+        <item>25 sekund</item>
+        <item>30 sekund</item>
+        <item>45 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>40 minut</item>
+        <item>50 minut</item>
+        <item>60 minut</item>
+        <item>90 minut</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+        <item>Neděle</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+        <item>Ne</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Výchozí systémový</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Zbývá: %3$s</item>
+        <item>Zbývá: %1$s</item>
+        <item>Zbývá: %2$s</item>
+        <item>Zbývá: %1$s %2$s</item>
+    </string-array>
+</resources>

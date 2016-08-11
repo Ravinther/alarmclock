@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm" android:key="alarm_settings">
+    <CheckBoxPreference android:title="@string/stopwatch_prefs_control_volume" android:key="control_with_volume" android:summary="@string/stopwatch_prefs_control_volume_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/timer_settings_keep_screen_on" android:key="keep_screen_on" android:summary="@string/timer_settings_keep_screen_on_summary" android:defaultValue="true" />
+    <Preference android:title="@string/stopwatch_prefs_email_times" android:key="email_stopwatch_times" />
+</PreferenceScreen>

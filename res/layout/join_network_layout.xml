@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="20dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/join_network_enter_pin" style="@c1086j/TextGreyMedium" />
+    <EditText android:id="@c1082f/editTextPin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:ems="10" android:inputType="1" style="@c1086j/holo_edittext" />
+    <Button android:id="@c1082f/buttonJoin" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/join_network" style="@c1086j/BlueButtonHolo" />
+</LinearLayout>

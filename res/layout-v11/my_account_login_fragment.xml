@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:gravity="11" android:id="@c1082f/textViewTitle" android:background="#15ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" style="@c1086j/TextBlueLarge" />
+            <TextView android:gravity="10" android:layout_gravity="1" android:id="@c1082f/textViewFeature1" android:background="#15ffffff" android:paddingLeft="20dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="@c1081e/circle" android:drawablePadding="10dp" style="@c1086j/TextWhiteMedium" />
+            <TextView android:gravity="10" android:layout_gravity="1" android:id="@c1082f/textViewFeature2" android:background="#15ffffff" android:paddingLeft="20dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="@c1081e/circle" android:drawablePadding="10dp" style="@c1086j/TextWhiteMedium" />
+            <com.avg.ui.general.customviews.SimpleTabWidget android:orientation="0" android:id="@c1082f/simpleTabWidget" android:layout_width="-1" android:layout_height="-2" android:showDividers="2" android:dividerPadding="5dp" />
+            <EditText android:id="@c1082f/editTextEmail" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="5dp" android:hint="@c1085i/zen_email" android:ems="10" android:drawableLeft="@c1081e/email_icon" android:inputType="21" style="@c1086j/holo_edittext" />
+            <EditText android:id="@c1082f/editTextPassword" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:layout_marginBottom="5dp" android:hint="@c1085i/zen_password" android:ems="10" android:drawableLeft="@c1081e/password_icon" android:inputType="81" style="@c1086j/holo_edittext" />
+            <CheckBox android:id="@c1082f/checkBoxShowPwd" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@c1085i/show_password" style="@c1086j/TextWhiteSmall" />
+            <Button android:textColor="@c1080d/white" android:layout_gravity="1" android:id="@c1082f/buttonLogin" android:background="@c1081e/btn_blue_holo_dark" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="10dp" android:minWidth="170dp" android:text="@c1085i/zen_log_in" android:singleLine="true" />
+            <TextView android:layout_gravity="1" android:id="@c1082f/textViewForgotPassword" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="@c1085i/forgot_password" style="@c1086j/TextWhiteSmall" />
+            <TextView android:layout_gravity="1" android:id="@c1082f/skip_text" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@c1085i/login_skip" style="@c1086j/TextWhiteLarge" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

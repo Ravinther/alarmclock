@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="40dp" android:minHeight="40dp" android:updatePeriodMillis="0" android:initialLayout="@layout/analog_appwidget" />

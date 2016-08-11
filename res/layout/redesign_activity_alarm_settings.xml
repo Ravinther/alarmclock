@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@c1082f/action_bar_container" android:layout_width="-1" android:layout_height="-2">
+        <include android:id="@id/fake_action_bar_layout" layout="@layout/redesign_ab_fake" />
+        <include android:id="@id/save_cancel_control_bar" layout="@layout/redesign_ab_save_cancel_layout" />
+    </FrameLayout>
+    <ListView android:id="0x102000a" android:descendantFocusability="1" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/adsContainerView" android:layout_below="@c1082f/action_bar_container" style="@style/visible_vertical_scroll_preference_list_view" />
+    <com.anglelabs.alarmclock.redesign.views.AdsContaienrView android:id="@id/adsContainerView" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

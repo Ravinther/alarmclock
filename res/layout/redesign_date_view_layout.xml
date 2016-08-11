@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@drawable/alarm_item_type_background" android:layout_width="-2" android:layout_height="-2">
+    <TableLayout android:gravity="1" android:id="@id/date_view" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/date_list_list_margin" android:layout_marginRight="@dimen/date_list_list_margin" android:layout_marginBottom="10dp" android:stretchColumns="*" android:shrinkColumns="*">
+        <TableRow>
+            <com.anglelabs.alarmclock.redesign.views.DateListView android:id="@id/item1" android:layout_width="-2" android:layout_height="@dimen/date_list_height" android:layout_marginLeft="@dimen/date_list_margin" android:layout_marginRight="@dimen/date_list_margin" style="@style/dateListStyle" />
+            <com.anglelabs.alarmclock.redesign.views.DateListView android:id="@id/item2" android:layout_width="-2" android:layout_height="@dimen/date_list_height" android:layout_marginLeft="@dimen/date_list_margin" android:layout_marginRight="@dimen/date_list_margin" style="@style/dateListStyle" />
+            <com.anglelabs.alarmclock.redesign.views.DateListView android:id="@id/item3" android:layout_width="-2" android:layout_height="@dimen/date_list_height" android:layout_marginLeft="@dimen/date_list_margin" android:layout_marginRight="@dimen/date_list_margin" style="@style/dateListStyle" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="@dimen/body_text_size_small" android:textColor="@color/set_timer_title" android:gravity="11" android:id="@id/item1_title" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/hours_no_number" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/body_text_size_small" android:textColor="@color/set_timer_title" android:gravity="11" android:id="@id/item2_title" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/minutes_no_number" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/body_text_size_small" android:textColor="@color/set_timer_title" android:gravity="11" android:id="@id/item3_title" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/seconds_no_number" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

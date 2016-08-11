@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@c1081e/tool_bar" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:background="@c1081e/action_bar_stripe" android:layout_width="-1" android:layout_height="-2" android:contentDescription="@c1085i/DummyContentDescription" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:id="@c1082f/titlePart" android:layout_width="0dp" android:layout_height="-2" android:layout_toLeftOf="@c1082f/buttons" android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+            <LinearLayout android:orientation="0" android:id="@c1082f/titleAndButton" android:layout_width="-2" android:layout_height="-2">
+                <Button android:layout_gravity="10" android:id="@c1082f/home" android:layout_width="-2" android:layout_height="-2" style="@c1086j/ImageButtonHolo" />
+                <TextView android:ellipsize="3" android:layout_gravity="10" android:id="@c1082f/title" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@c1086j/ActionbarText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="5" android:orientation="0" android:id="@c1082f/buttons" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:id="@c1082f/upgrade" android:background="@c1081e/upgrade_button_selector" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" style="@c1086j/ImageButtonHolo" />
+            <Button android:id="@c1082f/options" android:background="@c1081e/btn_menu_actionbar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@c1086j/ImageButtonHolo" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

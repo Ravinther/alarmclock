@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/eight_dp" android:paddingRight="@dimen/eight_dp" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/alert_scroll_view" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <com.anglelabs.alarmclock.redesign.views.DigitalClock android:layout_gravity="31" android:id="@id/clock_layout" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/clock_text_size" android:textColor="0x106000b" android:id="@id/time_display" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+            <TextView android:textStyle="1" android:textColor="0x106000b" android:id="@id/am_pm" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_toRightOf="@id/time_display" android:layout_alignBaseline="@id/time_display" />
+            <TextView android:textSize="26sp" android:textColor="0x106000b" android:id="@id/alarm_label" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:layout_below="@id/time_display" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="0x106000b" android:id="@id/alarm_times_snoozed" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/alarm_label" android:layout_centerHorizontal="true" />
+        </com.anglelabs.alarmclock.redesign.views.DigitalClock>
+    </ScrollView>
+    <ViewSwitcher android:id="@id/alarm_snooze_switcher" android:layout_width="-1" android:layout_height="@dimen/alert_control_button__height" android:layout_margin="5dp" android:layout_above="@id/alarm_dismiss_button">
+        <TextView android:gravity="11" android:id="@id/alarm_snooze_button" android:layout_width="-1" android:layout_height="-1" android:text="@string/snooze" style="@style/alert_control_button_style" />
+        <RelativeLayout android:orientation="0" android:id="@id/alarm_snoozed_display" android:background="@color/half_transpernt_button_color" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@id/alarm_snooze_animation" android:background="@drawable/redesign_snooze_animation" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_toLeftOf="@id/alarm_snoozed_text" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/snoozed_indication_text_size" android:gravity="11" android:id="@id/alarm_snoozed_text" android:clickable="false" android:layout_width="-2" android:layout_height="-1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </ViewSwitcher>
+    <TextView android:gravity="11" android:id="@id/alarm_dismiss_button" android:layout_width="-1" android:layout_height="@dimen/alert_control_button__height" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:text="@string/dismiss" android:layout_alignParentBottom="true" style="@style/alert_control_button_style" />
+</RelativeLayout>

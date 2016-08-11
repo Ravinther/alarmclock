@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:id="@c1082f/root_layout" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@c1082f/title" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@c1085i/testing" style="@c1086j/DashbordButtonTitle" />
+        <TextView android:id="@c1082f/subtitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@c1085i/testing" style="@c1086j/DashbordButtonSubtitle" />
+        <Button android:ellipsize="3" android:id="@c1082f/dashboardButton" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/testing" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+</ScrollView>

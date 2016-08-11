@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="198109" android:versionName="4.0.1" android:installLocation="internalOnly" package="com.alarmclock.xtreme.free" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17" />
+    <application android:theme="@style/LaunchStyle" android:label="@string/app_label_free" android:icon="@drawable/ic_new_launcher_alarmclock_free" android:name="com.alarmclock.xtreme.free.AlarmClockApplication" android:allowBackup="false">
+        <provider android:name="com.anglelabs.alarmclock.contentproviders.AlarmProvider" android:exported="false" android:authorities="com.alarmclock.xtreme.free" />
+        <activity android:theme="@style/LaunchStyle" android:icon="@drawable/ic_new_launcher_alarmclock_free" android:name="com.alarmclock.xtreme.free.AlarmClock">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/LaunchStyle" android:name="com.anglelabs.alarmclock.redesign.activities.HandleApiCalls" android:permission="com.android.alarm.permission.SET_ALARM" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppThemeNoActionBar" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignAlarmAlertActivity" android:exported="true" android:launchMode="singleTask" />
+        <activity android:theme="@style/AppTheme" android:name="com.anglelabs.alarmclock.redesign.activities.NewMainActivity" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="20" />
+        <activity android:theme="@style/AppPreferenceActivity" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignAlarmSettingsActivity" android:windowSoftInputMode="30" />
+        <activity android:theme="@style/AppTheme" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignMainSettingsActivity" android:launchMode="singleTask" />
+        <activity android:theme="@style/AppPreferenceActivity" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignGeneralSettingActivity" />
+        <activity android:theme="@style/AppPreferenceActivity" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignStopwatchPreferenceActivity" />
+        <activity android:theme="@style/AppPreferenceActivity" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignChooseBackgroundActivity" android:parentActivityName="com.anglelabs.alarmclock.redesign.activities.RedesignGeneralSettingActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.anglelabs.alarmclock.redesign.activities.RedesignGeneralSettingActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme" android:name="com.anglelabs.alarmclock.redesign.activities.RedesignSetSoundTypeActivity" />
+        <receiver android:name="com.anglelabs.alarmclock.redesign.alarm.AlarmStateManager" android:exported="false">
+            <intent-filter>
+                <action android:name="com.alarmclock.xtreme.free.ALARM_DISMISSED" />
+                <action android:name="com.anglelabs.alarmclock.free.ALARM_ALERT" />
+                <action android:name="com.anglelabs.alarmclock.free.alarm_hide" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.anglelabs.alarmclock.redesign.timer.TimerReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.anglelabs.alarmclock.free.act_timer_action" />
+                <action android:name="com.anglelabs.alarmclock.free.act_timer_times_up" />
+                <action android:name="com.anglelabs.alarmclock.free.act_timer_notif_cancel" />
+                <action android:name="com.anglelabs.alarmclock.free.act_timer_notif_show" />
+                <action android:name="com.anglelabs.alarmclock.free.act_timer_notif_settings" />
+                <action android:name="com.anglelabs.alarmclock.free.timer_hide" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.anglelabs.alarmclock.receivers.AlarmInitReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.anglelabs.alarmclock.redesign.stopwatch.StopwatchNotifications" android:exported="true" />
+        <service android:name="com.anglelabs.alarmclock.redesign.timer.TimerService" android:exported="false" />
+        <service android:name="com.anglelabs.alarmclock.redesign.alarm.AlarmService" />
+        <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.millennialmedia.android.MMActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <service android:name="com.anglelabs.alarmclock.redesign.app.AlarmClockTKService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.avg.toolkit.TKS_ACTION" />
+            </intent-filter>
+        </service>
+        <receiver android:label="@string/analog_gadget" android:name="com.alarmclock.xtreme.free.AnalogAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_appwidget" />
+        </receiver>
+        <receiver android:label="@string/analog_gadget_large" android:name="com.anglelabs.alarmclock.widgetsproviders.AnalogAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_appwidget_large" />
+        </receiver>
+        <receiver android:label="@string/next_alarm_time_widget_label" android:name="com.anglelabs.alarmclock.widgetsproviders.NextAlarmTimeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/next_alarm_time_widget" />
+        </receiver>
+        <activity android:label="" android:name="com.avg.ui.general.components.DrawerActivity" android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+        <activity android:label="" android:name="com.avg.ui.general.components.ZENLoginActivity" android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.avg.ui.general.about.AboutActivity" />
+        <activity android:theme="@c1086j/DialogTheme" android:name="com.avg.ui.general.rateus.RateAndShareDialogActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <service android:name="com.avg.toolkit.gcm.TKGCMIntentService" android:exported="true" />
+        <receiver android:name="com.avg.toolkit.recurringTasks.AlarmReceiver" />
+        <receiver android:name="com.avg.toolkit.recurringTasks.RecurringTaskAlarmReceiver" />
+        <receiver android:name="com.avg.toolkit.recurringTasks.BootReceiver">
+            <intent-filter android:priority="2000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.avg.toolkit.marketing.MarketReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.avg.toolkit.uid.SharedIdReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.avg.action.send_your_id" />
+                <action android:name="com.avg.action.take_id" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.avg.toolkit.ads.ocm.OcmAlarmReceiver">
+            <intent-filter>
+                <action android:name="com.avg.action.ocm_alarm" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.avg.toolkit.zen.ZENConnectivityReciever">
+            <intent-filter android:priority="2000">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.avg.toolkit.zen.GlobalLoginReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.avg.zen.action.GLOBAL_LOGIN_STATUS_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

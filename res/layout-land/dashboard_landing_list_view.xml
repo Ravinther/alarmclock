@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView dashboard:layout_width="-1" dashboard:layout_height="-1" dashboard:fillViewport="true">
+    <LinearLayout dashboard:gravity="10" dashboard:orientation="1" dashboard:layout_width="-2" dashboard:layout_height="-2" dashboard:layout_marginLeft="10dp" dashboard:layout_marginRight="10dp">
+        <com.avg.ui.general.customviews.DashboardListItem dashboard:id="@c1082f/listItem1" dashboard:layout_width="-2" dashboard:layout_height="-2" dashboard:titleSize="18sp" dashboard:subtitleSize="14sp" dashboard:paddingVertical="0dp" />
+        <com.avg.ui.general.customviews.DashboardListItem dashboard:id="@c1082f/listItem2" dashboard:layout_width="-2" dashboard:layout_height="-2" dashboard:titleSize="18sp" dashboard:subtitleSize="14sp" dashboard:paddingVertical="0dp" />
+        <com.avg.ui.general.customviews.DashboardListItem dashboard:id="@c1082f/listItem3" dashboard:layout_width="-2" dashboard:layout_height="-2" dashboard:titleSize="18sp" dashboard:subtitleSize="14sp" dashboard:paddingVertical="0dp" />
+    </LinearLayout>
+</ScrollView>

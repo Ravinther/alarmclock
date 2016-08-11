@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate android:interpolator="0x10a000b" android:duration="@c1083g/progressBarDuration" android:shareInterpolator="true" android:repeatCount="-1" android:repeatMode="1" android:fromXDelta="-50%p" android:toXDelta="100%p" />

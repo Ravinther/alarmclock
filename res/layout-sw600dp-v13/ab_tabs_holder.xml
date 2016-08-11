@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@c1082f/tabhost" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <TabWidget android:gravity="11" android:id="0x1020013" android:fadingEdge="2000" android:layout_width="-1" android:layout_height="-2" />
+        <FrameLayout android:id="0x1020011" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</TabHost>

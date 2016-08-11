@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/screen_view" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/mute" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/mute_btn_margin" android:src="@drawable/selector_mute_btn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18sp" android:textColor="@color/white_fifty_alpha" android:gravity="11" android:id="@id/math_title" android:layout_width="-2" android:layout_height="0dp" android:text="@string/math_fragment_title" android:layout_alignTop="@id/mute" android:layout_alignBottom="@id/mute" android:layout_centerHorizontal="true" />
+    <ScrollView android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="0dp" android:fillViewport="false" android:layout_above="@id/math_keyboard" android:layout_below="@id/math_title">
+        <RelativeLayout android:layout_gravity="10" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="0" android:id="@id/problem_text_container" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_centerInParent="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/question_text_size" android:textStyle="1" android:textColor="@c1080d/white" android:id="@id/problem_text" android:layout_width="-2" android:layout_height="-2" />
+                <EditText android:id="@id/math_edit_text" android:layout_width="120dp" android:layout_height="50dp" android:layout_marginLeft="8dp" style="@style/math_edit_text" />
+            </LinearLayout>
+            <include android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/problem_text_container" android:layout_centerHorizontal="true" layout="@layout/includable_math_solved_correctly_with_error_layout" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.anglelabs.alarmclock.redesign.views.MathKeyboard android:id="@id/math_keyboard" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/time_bar_minus_time_digit" android:visibility="2" style="@style/timer_number_display" />
+    <TextView android:id="@id/time_bar_hours_number" style="@style/timer_number_display" />
+    <TextView android:id="@id/time_bar_hours_digit" style="@style/timer_digit_display" />
+    <TextView android:id="@id/time_bar_minutes_number" style="@style/timer_number_display" />
+    <TextView android:id="@id/time_bar_minutes_digit" style="@style/timer_digit_display" />
+    <TextView android:id="@id/time_bar_seconds_number" style="@style/timer_number_display" />
+    <TextView android:id="@id/time_bar_seconds_digit" style="@style/timer_digit_display" />
+    <TextView android:textSize="28sp" android:textColor="0x106000b" android:id="@id/time_bar_millis_digit" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textSize="30sp" android:textStyle="1" android:textColor="0x106000b" android:id="@id/time_bar_millis_number" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

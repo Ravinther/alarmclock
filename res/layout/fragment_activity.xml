@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@c1082f/middle_part" android:layout_width="-1" android:layout_height="-1" android:layout_above="@c1082f/banner" android:layout_alignParentTop="true" />
+    <com.avg.ui.ads.AdsRemoveImageView android:id="@c1082f/adsRemoveView" android:paddingLeft="@dimen/remove_ads_default_padding" android:paddingTop="@dimen/remove_ads_default_padding" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.avg.toolkit.ads.AdsManager android:id="@c1082f/banner" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

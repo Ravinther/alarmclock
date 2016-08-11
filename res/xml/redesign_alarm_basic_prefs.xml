@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm" android:key="alarm_settings">
+    <com.anglelabs.alarmclock.preference.AlarmTimeAndDaysPreference android:title="" android:selectable="false" android:key="alarm_set_time" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/timer_settings_keep_screen_on" android:key="keep_screen_on" />
+    <com.anglelabs.alarmclock.preference.base.BaseEditTextPreference android:persistent="false" android:title="@string/alarm_setting_alarm_name" android:key="alarm_name" android:dialogTitle="@string/alarm_setting_alarm_name" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/sound_type_entries" android:title="@string/alarm_setting_sound_type" android:key="sound_type" android:dialogTitle="@string/alarm_setting_sound_type" android:entryValues="@array/sound_type_values" />
+    <com.anglelabs.alarmclock.preference.SelectRingtonePreference android:persistent="false" android:title="@string/alarm_setting_sound_rington" android:key="set_ringtone" android:ringtoneType="7" android:showDefault="true" android:showSilent="true" />
+    <com.anglelabs.alarmclock.preference.MusicPreference android:persistent="false" android:title="@string/alarm_setting_sound_music" android:key="set_music" />
+    <com.anglelabs.alarmclock.preference.ArtistPreference android:persistent="false" android:title="@string/alarm_setting_sound_artist" android:key="set_artist" />
+    <com.anglelabs.alarmclock.preference.PlaylistPreference android:persistent="false" android:title="@string/alarm_setting_sound_playlist" android:key="set_playlist" />
+    <com.anglelabs.alarmclock.preference.ApplicationPreference android:persistent="false" android:title="@string/alarm_setting_sound_application" android:key="set_application" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:title="@string/alarm_setting_snooze" android:key="snooze_method" android:dialogTitle="@string/alarm_setting_snooze" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/timeout_duration_entries" android:title="@string/alarm_setting_auto_snooze" android:key="auto_snooze" android:dialogTitle="@string/alarm_setting_auto_snooze" android:entryValues="@array/timeout_duration_values" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:title="@string/alarm_setting_dismiss" android:key="dismiss_method" android:dialogTitle="@string/alarm_setting_dismiss" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/timeout_duration_entries" android:title="@string/alarm_setting_auto_dismiss" android:key="auto_dismiss" android:dialogTitle="@string/alarm_setting_auto_dismiss" android:entryValues="@array/timeout_duration_values" />
+    <PreferenceCategory android:layout="@layout/redesign_preference_category" android:title="@string/alarm_setting_category_math" android:key="category_math_settings" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/alarm_setting_math_allow_pass_title" android:key="allow_passing_questions" android:summary="@string/alarm_setting_math_allow_pass_summary" />
+    <com.anglelabs.alarmclock.preference.base.BaseListPreference android:persistent="false" android:entries="@array/math_difficulty_entries" android:title="@string/alarm_setting_math_difficulty" android:key="math_difficulty" android:shouldDisableView="true" android:dialogTitle="@string/alarm_setting_math_difficulty" android:entryValues="@array/math_difficulty_values" />
+    <com.anglelabs.alarmclock.preference.SeekBarPreference android:persistent="false" android:max="10" android:title="@string/alarm_setting_math_num_snooze" android:key="math_snooze_num" android:defaultValue="1" />
+    <com.anglelabs.alarmclock.preference.SeekBarPreference android:persistent="false" android:max="10" android:title="@string/alarm_setting_math_num_dismiss" android:key="math_dismiss_num" android:defaultValue="1" />
+    <Preference android:persistent="false" android:title="@string/alarm_setting_advanced" android:key="advanced_settings" />
+    <Preference android:persistent="false" android:layout="@layout/redesign_preview_pref_layout" android:title="@string/alarm_setting_preview" android:key="preview" />
+</PreferenceScreen>

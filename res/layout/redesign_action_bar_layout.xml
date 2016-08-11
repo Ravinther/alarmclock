@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:gravity="10" android:orientation="0" android:id="@id/ab_tabs_container" android:layout_width="-1" android:layout_height="?attr/actionBarSize">
+    <RadioButton android:id="@id/ab_tab_alarm" android:background="@drawable/ab_selector_alarm_tab" android:layout_width="?attr/actionBarSize" android:layout_height="?attr/actionBarSize" android:button="@base64/DEFAULT" />
+    <RadioButton android:id="@id/ab_tab_timer" android:background="@drawable/ab_selector_timer_tab" android:layout_width="?attr/actionBarSize" android:layout_height="?attr/actionBarSize" android:button="@base64/DEFAULT" />
+    <RadioButton android:id="@id/ab_tab_stopwatch" android:background="@drawable/ab_selector_stopwatch_tab" android:layout_width="?attr/actionBarSize" android:layout_height="?attr/actionBarSize" android:button="@base64/DEFAULT" />
+</RadioGroup>

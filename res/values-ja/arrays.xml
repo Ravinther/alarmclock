@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>サイレント</item>
+        <item>着信音</item>
+        <item>音楽</item>
+        <item>アーティスト別ランダム選曲</item>
+        <item>プレイリスト別ランダム選曲</item>
+        <item>アプリケーションを起動</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>土曜日</item>
+        <item>日曜日</item>
+        <item>月曜日</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>ストップウォッチ</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>非常に簡単 (例: 6 – 2)</item>
+        <item>簡単 (例: 15 – 8)</item>
+        <item>中程度 (例: 36 – 19)</item>
+        <item>難しい (例: 112 – 62 – 27)</item>
+        <item>非常に難しい (例: 9 × 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>1 分未満</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s と %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s と %3$s</item>
+        <item>%2$s と %3$s</item>
+        <item>%1$s %2$s と %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>45 秒</item>
+        <item>60 秒</item>
+        <item>90 秒</item>
+        <item>2 分</item>
+        <item>3 分</item>
+        <item>4 分</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>15 分</item>
+        <item>20 分</item>
+        <item>30 分</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>なし</item>
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>3 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>20 秒</item>
+        <item>25 秒</item>
+        <item>30 秒</item>
+        <item>45 秒</item>
+        <item>1 分</item>
+        <item>2 分</item>
+        <item>3 分</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>15 分</item>
+        <item>20 分</item>
+        <item>30 分</item>
+        <item>40 分</item>
+        <item>50 分</item>
+        <item>60 分</item>
+        <item>90 分</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>システムのデフォルト</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>あと %3$s です</item>
+        <item>あと %1$s です</item>
+        <item>あと %2$s です</item>
+        <item>あと %1$s %2$s です</item>
+    </string-array>
+</resources>

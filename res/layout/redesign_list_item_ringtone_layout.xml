@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+    <ImageView android:id="@c1082f/item_icon" android:paddingRight="10dp" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010044" android:gravity="10" android:id="@id/playlist_name" android:layout_width="0dp" android:layout_height="-1" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/vertical_divider" android:layout_toRightOf="@c1082f/item_icon" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+    <View android:id="@id/vertical_divider" android:background="@color/darker_gray" android:layout_width="1dp" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="@id/checkbox_container" />
+    <LinearLayout android:gravity="11" android:id="@id/checkbox_container" android:padding="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true">
+        <RadioButton android:id="@id/playlist_checked_item" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</RelativeLayout>

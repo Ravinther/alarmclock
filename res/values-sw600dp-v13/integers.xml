@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_max_action_buttons">5</integer>
+    <integer name="progressBarDuration">2000</integer>
+    <integer name="progressBarSecondAnimationOffset">1000</integer>
+    <integer name="refreshRateSmall">2</integer>
+    <integer name="refreshRateBig">10</integer>
+    <integer name="circleWidthSmall">10</integer>
+    <integer name="circleWidthBig">15</integer>
+    <integer name="paddingSmall">2</integer>
+    <integer name="paddingBig">8</integer>
+    <integer name="overlay_web_view_height_ratio_portrait">83</integer>
+    <integer name="overlay_web_view_height_ratio_landscape">97</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="1" android:id="@c1082f/navigationPlaceHolder" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+    <FrameLayout android:id="@c1082f/fullScreenLayout" android:layout_width="-1" android:layout_height="-1" android:layout_above="@c1082f/banner" />
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@c1082f/dualPaneLayout" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false" android:layout_above="@c1082f/banner">
+        <FrameLayout android:id="@c1082f/dashboardPlaceHolder" android:visibility="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="@c1083g/dual_pane_top_weight" />
+        <FrameLayout android:id="@c1082f/contentPlaceHolder" android:visibility="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="@c1083g/dual_pane_bottom_weight" />
+    </LinearLayout>
+    <com.avg.ui.ads.AdsRemoveImageView android:id="@c1082f/adsRemoveView" android:paddingLeft="@dimen/remove_ads_default_padding" android:paddingTop="@dimen/remove_ads_default_padding" android:layout_width="-2" android:layout_height="-2" android:layout_above="@c1082f/banner" android:layout_alignParentRight="true" />
+    <com.avg.toolkit.ads.AdsManager android:gravity="1" android:id="@c1082f/banner" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

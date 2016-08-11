@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="11" android:orientation="1" android:id="@c1082f/textViewMessage" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:text="popup message" style="@c1086j/TextGreySmall" />

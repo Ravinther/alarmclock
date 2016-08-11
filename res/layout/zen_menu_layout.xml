@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="3" android:orientation="1" android:background="@c1080d/drawer_bg" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:id="@c1082f/linearLayoutDrawerButtons" android:layout_width="-1" android:layout_height="-2">
+            <Button android:textSize="16sp" android:textColor="@c1080d/white" android:gravity="10" android:id="@c1082f/buttonDrawerLogin" android:background="@c1081e/selector_menu_item_bg" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/zen_log_in" />
+            <TextView android:ellipsize="3" android:gravity="10" android:layout_gravity="10" android:id="@c1082f/textViewStatus" android:background="@c1081e/list_item_bg" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/connected_as" android:maxLines="2" android:drawableRight="@c1081e/click_to_open" style="@c1086j/TextWhiteMedium" />
+            <LinearLayout android:orientation="1" android:id="@c1082f/linearLayoutDrawerMyAccount" android:layout_width="-1" android:layout_height="-2">
+                <Button android:textSize="16sp" android:textColor="@c1080d/white" android:gravity="10" android:id="@c1082f/buttonDrawerMyAccount" android:background="@c1081e/selector_menu_item_bg_inverse" android:paddingLeft="30dp" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/drawer_my_account" />
+                <Button android:textSize="16sp" android:textColor="@c1080d/white" android:gravity="10" android:id="@c1082f/buttonDrawerLogOut" android:background="@c1081e/selector_menu_item_bg_inverse" android:paddingLeft="30dp" android:layout_width="-1" android:layout_height="-2" android:text="@c1085i/drawer_log_out" />
+            </LinearLayout>
+            <include android:id="@c1082f/buttonManageDevices" layout="@c1084h/zen_menu_item_layout" />
+            <include android:id="@c1082f/buttonZenNetworkManage" layout="@c1084h/zen_menu_item_layout" />
+            <include android:id="@c1082f/buttonMoreApps" layout="@c1084h/zen_menu_item_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <com.avg.ui.general.customviews.SocialPanelView android:id="@c1082f/socialPanel" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" />
+</LinearLayout>

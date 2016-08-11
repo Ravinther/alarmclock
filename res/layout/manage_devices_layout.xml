@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="@c1085i/manage_devices_connected_to_zen" style="@c1086j/TextBlueLarge" />
+    <TextView android:gravity="1" android:id="@c1082f/textViewMail" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="myemail@avg.com" style="@c1086j/TextGreySmall" />
+    <Button android:textColor="@c1080d/white" android:layout_gravity="1" android:id="@c1082f/buttonLogOut" android:background="@c1081e/btn_blue_holo_dark" android:layout_width="-2" android:layout_height="-2" android:minWidth="56dp" android:text="@c1085i/log_out" />
+</LinearLayout>

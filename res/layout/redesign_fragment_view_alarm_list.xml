@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="@dimen/view_alarms_margin" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:layout_gravity="1" android:orientation="0" android:id="@id/vacationModeLayout" android:background="@drawable/vacation_item_type_background_selected" android:padding="@dimen/view_alarms_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="2dp">
+        <include layout="@layout/includeable_vaction_on_layout" />
+    </LinearLayout>
+    <TextView android:gravity="11" android:id="@id/nextAlarmTextView" android:paddingTop="2dp" android:layout_width="-1" android:layout_height="-2" style="@style/alarm_page_next_alarm_time_info" />
+    <TextView android:gravity="11" android:id="@id/timeRemainingText" android:layout_width="-1" android:layout_height="-2" style="@style/alarm_page_next_alarm_time_info" />
+    <ListView android:id="@c1082f/list" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="7dp" android:layout_marginBottom="@dimen/view_alarms_margin" android:divider="@c1080d/transparent" android:dividerHeight="6dp" android:layout_weight="1.0" style="@style/baseListStyle" />
+    <FrameLayout android:id="@id/alarm_empty_view" android:visibility="2" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/big_button_text_size" android:textColor="@c1080d/white" android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/big_button_margin_double" android:text="@string/no_alarms" android:drawableTop="@drawable/no_alarm" />
+    </FrameLayout>
+    <include android:id="@id/add_alarm" layout="@layout/includable_add_button" />
+</LinearLayout>

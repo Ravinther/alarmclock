@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false">
+    <item android:duration="750" android:drawable="@drawable/snooze_1" />
+    <item android:duration="750" android:drawable="@drawable/snooze_2" />
+    <item android:duration="750" android:drawable="@drawable/snooze_3" />
+    <item android:duration="750" android:drawable="@drawable/snooze_2" />
+</animation-list>

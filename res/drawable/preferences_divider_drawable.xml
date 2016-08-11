@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="2">
+    <stroke android:width="1px" android:color="@color/prefs_divider_color" />
+    <size android:height="2px" />
+</shape>

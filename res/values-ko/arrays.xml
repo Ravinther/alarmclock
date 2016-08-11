@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>무음</item>
+        <item>벨소리</item>
+        <item>음악</item>
+        <item>아티스트별 임의 곡</item>
+        <item>재생 목록별 임의 곡</item>
+        <item>응용 프로그램 실행</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>토요일</item>
+        <item>일요일</item>
+        <item>월요일</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>알람</item>
+        <item>타이머</item>
+        <item>스톱워치</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>아주 쉬움(예: 6 – 2)</item>
+        <item>쉬움(예: 15 – 8)</item>
+        <item>보통(예: 36 – 19)</item>
+        <item>어려움(예: 112 – 62 – 27)</item>
+        <item>아주 어려음(예: 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>1분 미만</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s 및 %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s 및 %3$s</item>
+        <item>%2$s 및 %3$s</item>
+        <item>%1$s %2$s 및 %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>45초</item>
+        <item>60초</item>
+        <item>90초</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>안 함</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>3초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>25초</item>
+        <item>30초</item>
+        <item>45초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>40분</item>
+        <item>50분</item>
+        <item>60분</item>
+        <item>90분</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+        <item>일</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>시스템 기본 설정</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (no)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s 남음</item>
+        <item>%1$s 남음</item>
+        <item>%2$s 남음</item>
+        <item>%1$s %2$s 남음</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:id="@c1082f/ll_footer" android:padding="2dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="16sp" android:gravity="1" android:id="@c1082f/tv_trial_state" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:id="@c1082f/tv_upgrade" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="@c1085i/privacy_upgrade" style="@c1086j/UpgradeLink" />
+</LinearLayout>

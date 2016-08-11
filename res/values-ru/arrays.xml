@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Бесшумный сигнал</item>
+        <item>Сигнал</item>
+        <item>Музыка</item>
+        <item>Случайные песни исполнителя</item>
+        <item>Случайные песни из списка</item>
+        <item>Запуск приложения</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Будильник</item>
+        <item>Таймер</item>
+        <item>Секундомер</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Самые простые (напр., 6 – 2)</item>
+        <item>Простые (напр., 15 – 8)</item>
+        <item>Средней сложности (напр., 36 – 19)</item>
+        <item>Сложные (напр., 112 – 62 – 27)</item>
+        <item>Самые сложные (напр., 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>меньше 1 минуты</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s и %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s и %3$s</item>
+        <item>%2$s и %3$s</item>
+        <item>%1$s %2$s и %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>45 секунд</item>
+        <item>60 секунд</item>
+        <item>90 секунд</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>4 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Никогда</item>
+        <item>1 секунда</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>20 секунд</item>
+        <item>25 секунд</item>
+        <item>30 секунд</item>
+        <item>45 секунд</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Настройки системы по умолчанию</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Русский (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>осталось %3$s</item>
+        <item>осталось %1$s</item>
+        <item>осталось %2$s</item>
+        <item>осталось %1$s %2$s</item>
+    </string-array>
+</resources>

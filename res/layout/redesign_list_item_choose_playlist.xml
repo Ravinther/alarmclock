@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010044" android:id="@id/playlist_name" android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/vertical_divider" android:layout_alignParentLeft="true" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x1060005" android:id="@id/playlist_songs_count" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/playlist_name" />
+    <View android:id="@id/vertical_divider" android:background="@color/darker_gray" android:layout_width="1dp" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="@id/checkbox_container" android:layout_alignTop="@id/playlist_name" android:layout_alignBottom="@id/playlist_songs_count" />
+    <LinearLayout android:gravity="11" android:id="@id/checkbox_container" android:padding="10dp" android:layout_width="-2" android:layout_height="0dp" android:layout_alignTop="@id/vertical_divider" android:layout_alignBottom="@id/vertical_divider" android:layout_alignParentRight="true">
+        <RadioButton android:id="@id/playlist_checked_item" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</RelativeLayout>

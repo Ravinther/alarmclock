@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:drawable="@drawable/button_item_type_background_pressed_right" />
+    <item android:state_pressed="true" android:drawable="@drawable/button_item_type_background_pressed_right" />
+    <item android:drawable="@drawable/button_item_type_background_right" />
+</selector>

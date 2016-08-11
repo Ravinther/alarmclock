@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock">42.0sp</dimen>
+    <dimen name="timer_text_size">30.0sp</dimen>
+    <dimen name="date_list_height">150.0dip</dimen>
+    <dimen name="alarm_time_preference_padding_bottom">4.0dip</dimen>
+    <dimen name="alarm_time_preference_week_days_margin_top">2.0dip</dimen>
+    <dimen name="math_keypad_height">38.0dip</dimen>
+    <dimen name="math_keyboard_number_pad_text_size">15.0sp</dimen>
+    <dimen name="math_keyboard_text_pad_text_size">12.0sp</dimen>
+</resources>

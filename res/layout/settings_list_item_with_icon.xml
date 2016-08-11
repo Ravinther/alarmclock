@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="@c1082f/ll_header" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <RelativeLayout android:gravity="10" android:layout_width="-1" android:layout_height="-1" android:layout_below="@c1082f/ll_header">
+        <ImageView android:id="@c1082f/ll_selection" android:background="@c1080d/blue_note" android:visibility="2" android:layout_width="4dp" android:layout_height="-1" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@c1082f/list_seperator" android:background="?unknown_attr_ref: 1010214" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentTop="true" />
+        <ImageView android:id="@c1082f/icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="10sp" android:src="@c1081e/avg_icon" android:layout_toRightOf="@c1082f/ll_selection" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="1" android:id="@c1082f/ll_texts" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@c1082f/check" android:layout_toRightOf="@c1082f/icon" android:layout_centerVertical="true" style="@c1086j/BatteryListPadding">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@c1082f/title" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@c1082f/feature_text" android:layout_centerVertical="true" style="@c1086j/ListItemTitle" />
+                <TextView android:id="@c1082f/feature_text" android:paddingLeft="5dp" android:paddingRight="5dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" style="@c1086j/ListItemBody" />
+            </RelativeLayout>
+            <TextView android:id="@c1082f/summary" android:layout_width="-1" android:layout_height="-2" style="@c1086j/ListItemBody" />
+        </LinearLayout>
+        <ImageView android:id="@c1082f/check" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:src="@c1081e/btn_check_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

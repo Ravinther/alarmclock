@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:id="@c1082f/separator" android:background="@c1080d/blue_note" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="10" android:id="@c1082f/textView" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:text="" android:layout_weight="1.0" style="@c1086j/TextWhiteLarge" />
+        <RadioButton android:id="@c1082f/radioButton" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

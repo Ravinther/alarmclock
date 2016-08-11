@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <Button android:id="@c1082f/buttonAboutMoveApps" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:text="@c1085i/more_apps" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.avg.ui.general.customviews.SocialPanelView android:orientation="0" android:id="@c1082f/socialPanelView" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:layout_above="@c1082f/buttonAboutMoveApps" android:layout_centerHorizontal="true" />
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="20dp" android:layout_above="@c1082f/socialPanelView">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@c1082f/imageViewAboutAppIcon" android:layout_width="-2" android:layout_height="-2" android:src="@c1081e/avg_logo" />
+            <TextView android:id="@c1082f/textViewAboutVersion" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="@c1085i/about_version" style="@c1086j/TextWhiteMedium" />
+            <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+                <TextView android:linksClickable="true" android:id="@c1082f/textViewTermsHyperlink" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="@c1085i/activation_terms" style="@c1086j/TextGreyMedium" />
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="|" style="@c1086j/TextGreyMedium" />
+                <TextView android:linksClickable="true" android:id="@c1082f/textViewPrivacyHyperlink" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@c1085i/activation_privacy" style="@c1086j/TextGreyMedium" />
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="|" style="@c1086j/TextGreyMedium" />
+                <TextView android:linksClickable="true" android:id="@c1082f/textViewSourceLicHyperlink" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@c1085i/activation_open_source" style="@c1086j/TextGreyMedium" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

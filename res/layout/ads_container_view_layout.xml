@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/adsContainerViewSwitcher" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+    <View android:layout_gravity="50" android:id="@id/adsContainerPlaceHolderAd" android:layout_width="-1" android:layout_height="50dp" />
+    <com.avg.toolkit.ads.AdsManager android:layout_gravity="50" android:id="@id/adsContainerBanner" android:layout_width="-1" android:layout_height="-2" />
+</ViewSwitcher>

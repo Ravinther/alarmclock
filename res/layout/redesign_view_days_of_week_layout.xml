@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:weightSum="7.0">
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days2" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days3" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days4" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days5" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+    <com.anglelabs.alarmclock.redesign.views.SquareCheckBox android:id="@id/days6" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/alarm_day_radio_button_style" />
+</LinearLayout>

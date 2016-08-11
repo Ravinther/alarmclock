@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/alarms_card_padding" android:layout_width="-1" android:layout_height="-2" android:minHeight="85dp">
+    <TextView android:textSize="@dimen/alarm_card_text_size" android:textColor="@color/white_seventy_alpha" android:id="@id/days_of_week" android:paddingLeft="2dp" android:paddingBottom="@dimen/alarms_card_padding" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:drawablePadding="4dp" android:layout_below="@id/clock_layout" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/menu_item" android:padding="@dimen/alarms_card_padding" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_3menu_default" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ViewSwitcher android:id="@id/snooze_indication_switcher" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4dp" android:layout_toLeftOf="@id/menu_item" android:layout_centerVertical="true">
+        <ImageView android:id="@id/alarmSwitch" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/alarm_card_text_size" android:textColor="@color/warning_orange" android:gravity="11" android:id="@id/snooze_indication" android:layout_width="-2" android:layout_height="-2" />
+    </ViewSwitcher>
+    <com.anglelabs.alarmclock.redesign.views.DigitalClock android:gravity="30" android:id="@id/clock_layout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/alarms_card_padding_top" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="33sp" android:textStyle="1" android:textColor="@c1080d/white" android:id="@id/time_display" android:layout_width="-2" android:layout_height="-2" android:text="8:00" />
+        <TextView android:textSize="@dimen/alarm_card_text_size" android:textStyle="1" android:textColor="0x106000b" android:id="@id/am_pm" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:layout_toRightOf="@id/time_display" android:layout_alignBaseline="@id/time_display" />
+    </com.anglelabs.alarmclock.redesign.views.DigitalClock>
+    <TextView android:textSize="@dimen/alarm_card_text_size" android:ellipsize="3" android:gravity="50" android:id="@id/alarm_label" android:padding="4dp" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="6dp" android:layout_marginRight="8dp" android:maxLines="2" android:layout_toLeftOf="@id/snooze_indication_switcher" android:layout_toRightOf="@id/clock_layout" android:layout_alignTop="@id/clock_layout" android:layout_alignBottom="@id/clock_layout" />
+</RelativeLayout>

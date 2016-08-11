@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@c1082f/top_stripe" android:background="@c1081e/action_bar_stripe" android:layout_width="-1" android:layout_height="-2" />
+    <FrameLayout android:id="@c1082f/middle_part" android:layout_width="-1" android:layout_height="-1" android:layout_below="@c1082f/top_stripe" />
+</RelativeLayout>

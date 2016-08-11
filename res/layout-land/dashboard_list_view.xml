@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:gravity="1" android:layout_gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+        <com.avg.ui.general.customviews.DashboardListItem android:id="@c1082f/listItem1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/dashboard_list_item_margin" />
+        <com.avg.ui.general.customviews.DashboardListItem android:id="@c1082f/listItem2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/dashboard_list_item_margin" />
+        <com.avg.ui.general.customviews.DashboardListItem android:id="@c1082f/listItem3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/dashboard_list_item_margin" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@c1081e/btn_default_pressed_holo_dark" />
+    <item android:state_focused="true" android:drawable="@c1081e/btn_default_focused_holo_dark" />
+    <item android:state_enabled="true" android:drawable="0x106000d" />
+</selector>

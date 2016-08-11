@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Stille</item>
+        <item>Ringetone</item>
+        <item>Musikk</item>
+        <item>Tilfeldige sanger etter artist</item>
+        <item>Tilfeldige sanger etter spilleliste</item>
+        <item>Start applikasjon</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Lørdag</item>
+        <item>Søndag</item>
+        <item>Mandag</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Alarm</item>
+        <item>Tidtaker</item>
+        <item>Stoppeklokke</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Enklest (f.eks. 6–2)</item>
+        <item>Enkel (f.eks. 15–8)</item>
+        <item>Middels (f.eks. 36–19)</item>
+        <item>Vanskelig (f.eks. 112–62–27)</item>
+        <item>Vanskeligst (f.eks. 9 * 31–264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>mindre enn 1 minutt</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s og %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s og %3$s</item>
+        <item>%2$s og %3$s</item>
+        <item>%1$s %2$s og %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>45 sekunder</item>
+        <item>60 sekunder</item>
+        <item>90 sekunder</item>
+        <item>2 minutter</item>
+        <item>3 minutter</item>
+        <item>4 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Aldri</item>
+        <item>1 sekund</item>
+        <item>2 sekunder</item>
+        <item>3 sekunder</item>
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+        <item>20 sekunder</item>
+        <item>25 sekunder</item>
+        <item>30 sekunder</item>
+        <item>45 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>3 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>30 minutter</item>
+        <item>40 minutter</item>
+        <item>50 minutter</item>
+        <item>60 minutter</item>
+        <item>90 minutter</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+        <item>Søndag</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Man</item>
+        <item>Tir</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lør</item>
+        <item>Søn</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Standardinnstillinger for system</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s gjenstår</item>
+        <item>%1$s gjenstår</item>
+        <item>%2$s gjenstår</item>
+        <item>%1$s %2$s gjenstår</item>
+    </string-array>
+</resources>

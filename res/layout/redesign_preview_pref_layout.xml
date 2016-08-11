@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="15dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="16sp" android:textColor="0x106000b" android:gravity="11" android:id="@id/previewAlarm" android:background="@color/half_transpernt_button_color" android:layout_width="-1" android:layout_height="48dp" android:text="@string/pref_preview_button" />
+</LinearLayout>

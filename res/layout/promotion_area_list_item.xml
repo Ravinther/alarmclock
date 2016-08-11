@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="10sp" android:textColor="@c1080d/dashboard_text_green" android:gravity="11" android:id="@c1082f/textViewPromotionPercentage" android:background="@c1081e/promotion_percentage_background" android:layout_width="-2" android:layout_height="-2" android:text="10%" android:layout_centerVertical="true" style="@c1086j/TextGreyMedium" />
+    <TextView android:id="@c1082f/textViewPromotionText" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="Promotion text" android:layout_toLeftOf="@c1082f/imageViewPromotionOptions" android:layout_toRightOf="@c1082f/textViewPromotionPercentage" android:layout_centerVertical="true" style="@c1086j/TextGreyMedium" />
+    <ImageView android:id="@c1082f/imageViewPromotionOptions" android:layout_width="-2" android:layout_height="-2" android:src="@c1081e/promotion_close_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

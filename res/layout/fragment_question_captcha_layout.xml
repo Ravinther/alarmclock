@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="@id/screen_view" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/mute" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/mute_btn_margin" android:src="@drawable/selector_mute_btn" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/fake_mute" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/mute_btn_margin" android:src="@drawable/selector_mute_btn" android:layout_alignParentLeft="true" />
+        <TextView android:id="@id/error_text" android:layout_width="0dp" android:layout_height="-2" android:layout_toLeftOf="@id/mute" android:layout_toRightOf="@id/fake_mute" android:layout_alignBottom="@id/mute" style="@style/question_error_text" />
+        <TextView android:textSize="18sp" android:textColor="@color/white_fifty_alpha" android:id="@id/math_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/captcha_fragment_title" android:layout_below="@id/mute" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/question_text_size" android:textStyle="1" android:textColor="@c1080d/white" android:id="@id/problem_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/math_title" android:layout_centerHorizontal="true" />
+        <EditText android:id="@id/math_edit_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="3dp" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/submit" android:layout_below="@id/problem_text" style="@style/math_edit_text" />
+        <ImageView android:id="@id/submit" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/submit_btn_margin_right" android:src="@drawable/selector_submit_btn" android:layout_alignTop="@id/math_edit_text" android:layout_alignBottom="@id/math_edit_text" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</ScrollView>

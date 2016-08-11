@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rate_us_keys">
+        <item>@string/rate_us_key_alarm_set</item>
+        <item>@string/rate_us_key_alarm_dismissed</item>
+        <item>@string/rate_us_key_back_button</item>
+    </string-array>
+    <integer-array name="rate_us_values">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="first_day_of_week">
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="notification_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sound_type_values">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="volume_increase_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>45000</item>
+        <item>60000</item>
+        <item>90000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="timeout_duration_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>30000</item>
+        <item>45000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+    </string-array>
+    <string-array name="math_difficulty_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>default</item>
+        <item>cs</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>nb</item>
+        <item>pt</item>
+        <item>pt_br</item>
+        <item>pl</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>ja</item>
+        <item>zh_cn</item>
+        <item>zh_tw</item>
+        <item>ko</item>
+    </string-array>
+    <string-array name="sound_type_entries">
+        <item>Silent</item>
+        <item>Ringtone</item>
+        <item>Music</item>
+        <item>Random songs by artist</item>
+        <item>Random songs by playlist</item>
+        <item>Launch application</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Alarm</item>
+        <item>Timer</item>
+        <item>Stopwatch</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Easiest (i.e. 6 – 2)</item>
+        <item>Easy (i.e. 15 – 8)</item>
+        <item>Medium (i.e. 36 – 19)</item>
+        <item>Hard (i.e. 112 – 62 – 27)</item>
+        <item>Hardest (i.e. 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>less than 1 minute</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s and %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s and %3$s</item>
+        <item>%2$s and %3$s</item>
+        <item>%1$s %2$s and %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+        <item>90 seconds</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Never</item>
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>25 seconds</item>
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+        <item>60 minutes</item>
+        <item>90 minutes</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>System Default</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s remaining</item>
+        <item>%1$s remaining</item>
+        <item>%2$s remaining</item>
+        <item>%1$s %2$s remaining</item>
+    </string-array>
+</resources>

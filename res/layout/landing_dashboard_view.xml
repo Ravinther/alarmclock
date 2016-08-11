@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@c1082f/dashboard_layout" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:layout_gravity="13" android:id="@c1082f/landingGaugeHolder" android:paddingLeft="@dimen/dashboard_button_padding_left" android:paddingTop="@dimen/dashboard_button_padding_top" android:paddingRight="@dimen/dashboard_button_padding_right" android:paddingBottom="@dimen/dashboard_button_padding_bottom" android:layout_width="-2" android:layout_height="-2">
+        <com.avg.ui.general.customviews.Gauge android:id="@c1082f/dashboard_gauge" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <TextView android:gravity="11" android:id="@c1082f/upper_text" android:paddingTop="2dp" android:layout_width="-2" android:layout_height="-2" android:text="@c1085i/testing" android:singleLine="true" android:layout_below="@c1082f/dashboard_gauge" android:layout_centerHorizontal="true" style="@c1086j/AppLandingButtonUpperText" />
+    </RelativeLayout>
+    <FrameLayout android:background="@c1081e/section_divider" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+</LinearLayout>

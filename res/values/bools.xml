@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="largerThan600">false</bool>
+    <bool name="dashboard_list_item_single_line">false</bool>
+    <bool name="rate_us_master_kill_switch">true</bool>
+    <bool name="share_master_kill_switch">true</bool>
+    <bool name="rate_us_format_share_body_by_server_url">true</bool>
+</resources>

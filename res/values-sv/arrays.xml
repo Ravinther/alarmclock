@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>Tyst</item>
+        <item>Rington</item>
+        <item>Musik</item>
+        <item>Slumpmässig låt från artist</item>
+        <item>Slumpmässig låt från spellista</item>
+        <item>Starta program</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>Lördag</item>
+        <item>Söndag</item>
+        <item>Måndag</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>Alarm</item>
+        <item>Timer</item>
+        <item>Stoppur</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>Enklast (t.ex. 6 − 2)</item>
+        <item>Enkel (t.ex. 15 − 8)</item>
+        <item>Medel (t.ex. 36 − 19)</item>
+        <item>Svår (t.ex. 112 – 62 − 27)</item>
+        <item>Svårast (t.ex. 9 * 31 – 264)</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>mindre än 1 minut</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s och %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s och %3$s</item>
+        <item>%2$s och %3$s</item>
+        <item>%1$s %2$s och %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>45 sekunder</item>
+        <item>60 sekunder</item>
+        <item>90 sekunder</item>
+        <item>2 minuter</item>
+        <item>3 minuter</item>
+        <item>4 minuter</item>
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>20 minuter</item>
+        <item>30 minuter</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>Aldrig</item>
+        <item>1 sekund</item>
+        <item>2 sekunder</item>
+        <item>3 sekunder</item>
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+        <item>20 sekunder</item>
+        <item>25 sekunder</item>
+        <item>30 sekunder</item>
+        <item>45 sekunder</item>
+        <item>1 minut</item>
+        <item>2 minuter</item>
+        <item>3 minuter</item>
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>20 minuter</item>
+        <item>30 minuter</item>
+        <item>40 minuter</item>
+        <item>50 minuter</item>
+        <item>60 minuter</item>
+        <item>90 minuter</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+        <item>Söndag</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>Mån</item>
+        <item>Tis</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lör</item>
+        <item>Sön</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Standardvärden för system</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (no)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s återstår</item>
+        <item>%1$s återstår</item>
+        <item>%2$s återstår</item>
+        <item>%1$s %2$s återstår</item>
+    </string-array>
+</resources>

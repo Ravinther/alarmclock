@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:id="@id/base_layout" custom:layout_width="-1" custom:layout_height="-1" custom:baselineAligned="false">
+    <FrameLayout custom:id="@id/actionBarContainer" custom:layout_width="-1" custom:layout_height="-2">
+        <include custom:id="@id/fake_action_bar_layout" layout="@layout/redesign_ab_fake" />
+        <include custom:id="@id/save_cancel_control_bar" layout="@layout/redesign_ab_save_cancel_layout" />
+    </FrameLayout>
+    <ScrollView custom:id="@id/time_scroll_bar_containter" custom:layout_width="-2" custom:layout_height="-2" custom:layout_above="@id/adsContainerView" custom:layout_below="@id/actionBarContainer">
+        <LinearLayout custom:gravity="30" custom:orientation="1" custom:id="@id/time_display_container" custom:visibility="2" custom:layout_width="-2" custom:layout_height="-2">
+            <com.anglelabs.alarmclock.redesign.views.DigitalClock custom:id="@id/clock_layout" custom:layout_width="-2" custom:layout_height="-2">
+                <TextView custom:textSize="@dimen/clock_text_size" custom:textColor="0x106000b" custom:id="@id/time_display" custom:padding="10dp" custom:layout_width="-2" custom:layout_height="-2" />
+                <TextView custom:textStyle="1" custom:textColor="0x106000b" custom:id="@id/am_pm" custom:layout_width="-2" custom:layout_height="-2" custom:layout_marginLeft="5dp" custom:layout_toRightOf="@id/time_display" custom:layout_alignBaseline="@id/time_display" />
+            </com.anglelabs.alarmclock.redesign.views.DigitalClock>
+            <com.anglelabs.alarmclock.redesign.views.WeekDaysCheckGroup custom:id="@id/daysGroup" custom:paddingBottom="15dp" custom:layout_width="-1" custom:layout_height="-2" custom:layout_marginTop="5dp" custom:layout="@layout/redesign_view_days_of_week_landscape" />
+        </LinearLayout>
+    </ScrollView>
+    <ListView custom:id="0x102000a" custom:layout_width="-2" custom:layout_height="-1" custom:layout_toRightOf="@id/time_scroll_bar_containter" custom:layout_above="@id/adsContainerView" custom:layout_below="@id/actionBarContainer" style="@style/preference_list_style" />
+    <com.anglelabs.alarmclock.redesign.views.AdsContaienrView custom:gravity="1" custom:id="@id/adsContainerView" custom:layout_width="-1" custom:layout_height="-2" custom:layout_alignParentBottom="true" />
+</RelativeLayout>

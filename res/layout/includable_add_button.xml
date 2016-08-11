@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_alignParentBottom="true">
+    <LinearLayout android:gravity="11" android:id="@id/footer" android:background="@drawable/selector_button_item_bgcolor" android:padding="@dimen/big_button_padding" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/big_button_text_size" android:textColor="0x106000b" android:ellipsize="3" android:gravity="11" android:id="@id/footer_textview" android:layout_width="-2" android:layout_height="-2" android:text="@string/add_alarm" android:maxLines="2" android:drawableLeft="@drawable/ic_add_alarm_btn" android:drawablePadding="5dp" />
+    </LinearLayout>
+</merge>

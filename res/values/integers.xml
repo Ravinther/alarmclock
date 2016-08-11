@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="google_play_services_version">4452000</integer>
+    <integer name="progressBarDuration">2000</integer>
+    <integer name="progressBarSecondAnimationOffset">1000</integer>
+    <integer name="refreshRateSmall">2</integer>
+    <integer name="refreshRateBig">10</integer>
+    <integer name="circleWidthSmall">6</integer>
+    <integer name="circleWidthBig">9</integer>
+    <integer name="paddingSmall">2</integer>
+    <integer name="paddingBig">4</integer>
+    <integer name="overlay_web_view_height_ratio_portrait">95</integer>
+    <integer name="overlay_web_view_height_ratio_landscape">95</integer>
+    <integer name="dual_pane_top_weight">1</integer>
+    <integer name="dual_pane_bottom_weight">2</integer>
+    <integer name="dashboard_buttons_weight">2</integer>
+    <integer name="rate_us_min_launches">5</integer>
+    <integer name="flip_animation_duration">200</integer>
+    <integer name="min_animation_editText_ems">3</integer>
+    <integer name="sound_type_default">1</integer>
+    <integer name="incall_default">3</integer>
+    <integer name="snooze_method_default">1</integer>
+    <integer name="dismiss_method_default">1</integer>
+    <integer name="shake_duration_default">1</integer>
+    <integer name="dismiss_speed_default">25</integer>
+    <integer name="math_difficulty_default">0</integer>
+    <integer name="mute_length_default">10000</integer>
+</resources>

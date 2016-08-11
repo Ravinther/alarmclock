@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/timer_switcher" android:padding="@dimen/view_alarms_margin" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="@id/list_layout" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false" android:weightSum="10.0">
+        <ListView android:id="@c1082f/list" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="-1" android:layout_marginBottom="@dimen/view_alarms_margin" android:divider="@c1080d/transparent" android:dividerHeight="6dp" android:layout_weight="6.5" style="@style/baseListStyle" />
+        <LinearLayout android:layout_gravity="11" android:id="@id/footer" android:padding="@dimen/big_button_padding" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="15dp" android:layout_weight="3.5">
+            <include android:id="@id/add_timer_button" layout="@layout/includable_add_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/timer_layout" android:layout_width="-1" android:layout_height="-1" android:weightSum="10.0">
+        <ScrollView android:scrollbars="0" android:layout_width="0dp" android:layout_height="-2" android:layout_marginBottom="@dimen/view_alarms_margin" android:layout_weight="6.5">
+            <com.anglelabs.alarmclock.redesign.views.TimerView android:id="@id/timer_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/view_alarms_margin" />
+        </ScrollView>
+        <Button android:textSize="@dimen/big_button_text_size" android:textColor="0x106000b" android:id="@id/start_timer_button" android:background="@drawable/selector_button_item_bgcolor" android:padding="@dimen/big_button_padding" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="15dp" android:text="@string/start_timer" android:layout_weight="3.5" />
+    </LinearLayout>
+</ViewSwitcher>

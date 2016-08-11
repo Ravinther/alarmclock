@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_type_entries">
+        <item>静音</item>
+        <item>铃声</item>
+        <item>音乐</item>
+        <item>按艺术家随机播放歌曲</item>
+        <item>按播放列表随机播放歌曲</item>
+        <item>启动应用程序</item>
+    </string-array>
+    <string-array name="first_day_of_week_entries">
+        <item>星期六</item>
+        <item>星期日</item>
+        <item>星期一</item>
+    </string-array>
+    <string-array name="notification_entries">
+        <item>闹钟</item>
+        <item>计时器</item>
+        <item>秒表</item>
+    </string-array>
+    <string-array name="math_difficulty_entries">
+        <item>最简单（即 6 – 2）</item>
+        <item>简单（即 15 – 8）</item>
+        <item>中等（即 36 – 19）</item>
+        <item>难（即 112 – 62 – 27）</item>
+        <item>最难（即 9 * 31 – 264）</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>少于 1 分钟</item>
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s 和 %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s 和 %3$s</item>
+        <item>%2$s 和 %3$s</item>
+        <item>%1$s %2$s 和 %3$s</item>
+    </string-array>
+    <string-array name="volume_increase_entries">
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>45 秒</item>
+        <item>60 秒</item>
+        <item>90 秒</item>
+        <item>2 分钟</item>
+        <item>3 分钟</item>
+        <item>4 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+    <string-array name="timeout_duration_entries">
+        <item>从不</item>
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>3 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>20 秒</item>
+        <item>25 秒</item>
+        <item>30 秒</item>
+        <item>45 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+        <item>40 分钟</item>
+        <item>50 分钟</item>
+        <item>60 分钟</item>
+        <item>90 分钟</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>系统默认</item>
+        <item>Čeština (cs)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Norsk (nb)</item>
+        <item>Português (pt)</item>
+        <item>Português Brasileiro (pt-br)</item>
+        <item>Polski (pl)</item>
+        <item>Pyccĸий (ru)</item>
+        <item>Svenska (sv)</item>
+        <item>日本語 (ja)</item>
+        <item>中文（简体）(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>%3$s 剩余</item>
+        <item>%1$s 剩余</item>
+        <item>%2$s 剩余</item>
+        <item>%1$s %2$s 剩余</item>
+    </string-array>
+</resources>

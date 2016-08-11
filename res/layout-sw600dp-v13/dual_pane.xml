@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@c1082f/tabs_navigation" android:layout_width="-1" android:layout_height="-2" layout="@c1084h/ab_tabs_holder" />
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:baselineAligned="false" android:weightSum="6.0" android:layout_weight="1.0"
+        <LinearLayout android:orientation="1" android:id="@c1082f/left_content" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="6.0">
+            <FrameLayout android:id="@c1082f/fragment_scan" android:layout_width="-1" android:layout_height="-2" />
+            <FrameLayout android:id="@c1082f/fragment_list" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+            <FrameLayout android:id="@c1082f/fragment_footer" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+        <FrameLayout android:id="@c1082f/fragment_content" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_weight="4.0" />
+    </LinearLayout>
+    <com.avg.toolkit.ads.AdsManager android:gravity="1" android:id="@c1082f/banner" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

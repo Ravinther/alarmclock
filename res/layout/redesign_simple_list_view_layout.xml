@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@c1082f/list" android:layout_width="-1" android:layout_height="-2" android:divider="@drawable/preferences_divider_drawable" style="@style/baseListStyle" />

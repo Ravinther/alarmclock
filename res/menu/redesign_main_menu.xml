@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/main_menu_upgrade" app:orderInCategory="1" app:title="@string/acx_main_menu_upgrade" app:showAsAction="0" />
+    <item app:id="@id/main_menu_settings" app:orderInCategory="2" app:title="@string/acx_main_menu_settings" app:showAsAction="0" />
+    <item app:id="@id/main_menu_about" app:orderInCategory="3" app:title="@string/acx_main_menu_about" app:showAsAction="0" />
+    <item app:id="@id/main_menu_help" app:orderInCategory="4" app:title="@string/acx_main_menu_help" app:showAsAction="0" />
+</menu>

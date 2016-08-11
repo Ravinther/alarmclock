@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/alarm_popup_menu_active" app:title="@string/alarm_popup_enable" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_edit" app:title="@string/alarm_popup_edit" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_duplicate" app:title="@string/alarm_popup_duplicate" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_set_default" app:title="@string/alarm_popup_set_default" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_preview" app:title="@string/alarm_popup_preview" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_skip_next" app:title="@string/alarm_popup_skip_next" app:showAsAction="6" />
+    <item app:id="@id/alarm_popup_menu_delete" app:title="@string/alarm_popup_delete" app:showAsAction="6" />
+</menu>

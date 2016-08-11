@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:paddingBottom="@dimen/alarm_time_preference_padding_bottom" custom:layout_width="-1" custom:layout_height="-2">
+    <com.anglelabs.alarmclock.redesign.views.TouchSwallowTimePicker custom:id="@id/timePicker" custom:paddingTop="@dimen/alarm_time_preference_week_days_margin_top" custom:focusable="true" custom:focusableInTouchMode="true" custom:layout_width="-2" custom:layout_height="-2" custom:layout_centerHorizontal="true" />
+    <com.anglelabs.alarmclock.redesign.views.WeekDaysCheckGroup custom:id="@id/daysGroup" custom:layout_width="-1" custom:layout_height="-2" custom:layout_marginTop="@dimen/alarm_time_preference_week_days_margin_top" custom:layout_below="@id/timePicker" custom:layout_centerHorizontal="true" custom:layout="@layout/redesign_view_days_of_week_layout" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/fragments_container" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/adsContainerView" />
+    <com.anglelabs.alarmclock.redesign.views.AdsContaienrView android:gravity="1" android:id="@id/adsContainerView" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/timer_text_size" android:textColor="@c1080d/white" android:gravity="1" android:layout_gravity="1" android:id="@id/set_timer_item_list" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+</LinearLayout>
